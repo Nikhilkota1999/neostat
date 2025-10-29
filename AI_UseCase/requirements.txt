@@ -1,0 +1,19 @@
+streamlit
+langchain
+langchain-core
+langchain-community
+langchain-text-splitters
+langchain-openai
+langchain-groq
+langchain-google-genai
+google-generativeai
+ddgs
+chromadb
+pypdf
+sentence-transformers
+groq
+requests
+langchain-mistralai
+# optional native sdk
+mistralai
+python-dotenv

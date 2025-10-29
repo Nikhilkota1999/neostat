@@ -1,0 +1,10 @@
+# Do not commit secrets
+.env
+
+# Caches / OS junk
+__pycache__/
+.pytest_cache/
+.DS_Store
+
+# Streamlit cache
+.streamlit/
