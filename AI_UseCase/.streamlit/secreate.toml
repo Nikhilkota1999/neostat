@@ -1,0 +1,40 @@
+# Streamlit Secrets for local dev or Streamlit Cloud
+# Note: This file is gitignored by AI_UseCase/.gitignore
+
+# LLM provider selection
+LLM_PROVIDER = "mistral"
+
+# Mistral
+MISTRAL_API_KEY = "vSSTlKm2lFdOc3O3xIXMbpsBZLbapV3c"
+MISTRAL_MODEL = "mistral-small-latest"
+
+# Groq (optional)
+GROQ_API_KEY = "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"
+GROQ_MODEL = "llama-3.1-8b-instant"
+
+# Google Gemini (optional)
+GOOGLE_API_KEY = "AIzaSyAKHlg7asgu4V7SsGaVLD57amD_Ta_3i2U"
+GEMINI_MODEL = "gemini-1.5-pro"
+
+# OpenRouter (optional)
+OPENROUTER_API_KEY = "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"
+OPENROUTER_MODEL = "openrouter/auto"
+OPENROUTER_SITE_URL = ""
+OPENROUTER_APP_NAME = ""
+
+# Embeddings
+EMBEDDINGS_PROVIDER = "huggingface"  # or 'openai'
+OPENAI_API_KEY = ""
+OPENAI_EMBEDDINGS_MODEL = "text-embedding-3-small"
+HF_EMBEDDINGS_MODEL = "sentence-transformers/all-MiniLM-L6-v2"
+
+# RAG
+RAG_CHUNK_SIZE = 800
+RAG_CHUNK_OVERLAP = 120
+
+# Search
+SEARCH_PROVIDER = "duckduckgo"
+SEARCH_TOP_K = 3
+
+# Misc
+DEBUG = false
